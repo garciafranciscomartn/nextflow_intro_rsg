@@ -52,7 +52,7 @@ https://github.com
 ### Ejecutar este repositorio en GitHub Codespaces
 
 Una vez que iniciaste sesión en GitHub, podés abrir directamente el entorno de entrenamiento desde este enlace:
-
+Preguntar a Marcel  VER SI PUEDO USAR EL DEL TRAINING 
 https://codespaces.new/nextflow-io/training?quickstart=1&ref=2.2.1
 
 O también podés abrir este mismo repositorio en Codespaces desde el siguiente botón:
@@ -62,8 +62,6 @@ O también podés abrir este mismo repositorio en Codespaces desde el siguiente 
 Esto abrirá una página donde podés crear un nuevo Codespace. Opcionalmente, podés hacer clic en "Change options" para elegir una máquina con más núcleos. Usar una máquina con 4 núcleos te permitirá aprovechar mejor la capacidad de Nextflow para paralelizar tareas.
 
 Para los cursos **Hello Nextflow**, **Nextflow For Science** y **nf-core**, se recomienda una máquina de **4 núcleos**.
-
-### Cuotas gratuitas
 
 El plan gratuito de GitHub incluye **120 core-hours** mensuales para Codespaces. Eso equivale, por ejemplo, a 30 horas en una máquina de 4 núcleos.
 
