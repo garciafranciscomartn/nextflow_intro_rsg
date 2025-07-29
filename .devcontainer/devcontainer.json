@@ -1,0 +1,11 @@
+{
+  "name": "Nextflow Intro",
+  "image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+  "features": {
+    "ghcr.io/devcontainers/features/conda:1": {
+      "channels": ["conda-forge", "bioconda"],
+      "packages": ["fastqc", "multiqc", "nextflow"]
+    }
+  },
+  "postCreateCommand": "nextflow info"
+}
