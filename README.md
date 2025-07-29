@@ -31,31 +31,39 @@ El curso está dividido en cinco módulos:
 
 - Conocimientos básicos de terminal de Linux
 - Cuenta de Google (para ejecutar los notebooks en Google Colab)
+- Cuenta de GitHub para ejecutar en Codespaces
 - (Opcional) Instalación local de:
   - Nextflow (v22.10.0 o superior)
   - Java 8 o superior
   - Docker y/o Conda
   - Git
 
-## Cómo usar este repositorio
+Este repositorio está preparado para ejecutarse directamente en **GitHub Codespaces**, sin necesidad de instalar Nextflow, Docker ni Conda en tu computadora local.
 
-Podés clonar este repositorio y trabajar localmente:
+### ¿Qué es Codespaces?
 
-```
-git clone https://github.com/garciafranciscomartn/nextflow_intro_rsg.git
-````
+GitHub Codespaces es un entorno de desarrollo en la nube que te permite abrir este repositorio en una máquina virtual con Linux, terminal, Docker, y editor de código (VS Code) listos para usar desde el navegador.
 
-O simplemente abrir cada notebook en Google Colab usando los botones incluidos arriba.
+### Cómo abrir este repositorio en Codespaces
 
+1. Asegurate de haber iniciado sesión en tu cuenta de GitHub.
+2. Hacé clic en el botón verde **"Code"**.
+4. Seleccioná la pestaña **"Codespaces"**.
+5. Clic en **"Create codespace on main"**.
+
+Esto abrirá una nueva pestaña con el entorno completamente funcional en la nube.
+
+### ¿Qué incluye el entorno?
+
+- Ubuntu Linux con terminal
+- Java, Conda, Nextflow, FastQC y MultiQC preinstalados (mediante archivo `.devcontainer`)
+- Docker habilitado para usar contenedores
+- Editor visual (VS Code) en el navegador
+- Posibilidad de ejecutar los notebooks (`.ipynb`) y los scripts `.nf`
 Se recomienda seguir los módulos en orden para facilitar el aprendizaje progresivo de los conceptos.
 
 ## Contacto
 
 Para dudas o consultas: [garciafranciscomartin@gmail.com](mailto:garciafranciscomartin@gmail.com)
 
-```
-
----
-
-Solo asegurate de que los notebooks estén **en la rama `main` y en la raíz del repositorio** para que los enlaces funcionen correctamente. ¿Querés que te lo prepare como archivo descargable `.md` también?
 ```
