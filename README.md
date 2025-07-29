@@ -1,5 +1,5 @@
 # Introducción a Nextflow
-Workshop .
+
 
 Este repositorio contiene el material del curso **"Introducción a Nextflow"**, desarrollado como parte de las actividades de capacitación del grupo regional de estudiantes en Bioinformática y Biología Computacional RSG-Argentina. Está orientado a personas que quieran dar sus primeros pasos en el uso de Nextflow para construir flujos de trabajo reproducibles, escalables y portables en bioinformática.
 
