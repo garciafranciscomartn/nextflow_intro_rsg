@@ -40,30 +40,33 @@ El curso está dividido en cinco módulos:
 
 Este repositorio está preparado para ejecutarse directamente en **GitHub Codespaces**, sin necesidad de instalar Nextflow, Docker ni Conda en tu computadora local.
 
-### ¿Qué es Codespaces?
+## Uso con GitHub Codespaces
 
-GitHub Codespaces es un entorno de desarrollo en la nube que te permite abrir este repositorio en una máquina virtual con Linux, terminal, Docker, y editor de código (VS Code) listos para usar desde el navegador.
+**GitHub Codespaces** es un entorno de desarrollo en la nube que permite trabajar de forma eficiente y segura desde cualquier navegador. Lo usamos como entorno de entrenamiento porque permite ofrecer a los participantes un entorno uniforme, controlado y ya probado, sin necesidad de instalar nada localmente.
 
-### Cómo abrir este repositorio en Codespaces
+### Crear una cuenta de GitHub
 
-1. Asegurate de haber iniciado sesión en tu cuenta de GitHub.
-2. Hacé clic en el botón verde **"Code"**.
-4. Seleccioná la pestaña **"Codespaces"**.
-5. Clic en **"Create codespace on main"**.
+Si aún no tenés una cuenta, podés crear una gratuitamente desde:  
+https://github.com
 
-Esto abrirá una nueva pestaña con el entorno completamente funcional en la nube.
+### Ejecutar este repositorio en GitHub Codespaces
 
-### ¿Qué incluye el entorno?
+Una vez que iniciaste sesión en GitHub, podés abrir directamente el entorno de entrenamiento desde este enlace:
 
-- Ubuntu Linux con terminal
-- Java, Conda, Nextflow, FastQC y MultiQC preinstalados (mediante archivo `.devcontainer`)
-- Docker habilitado para usar contenedores
-- Editor visual (VS Code) en el navegador
-- Posibilidad de ejecutar los notebooks (`.ipynb`) y los scripts `.nf`
-Se recomienda seguir los módulos en orden para facilitar el aprendizaje progresivo de los conceptos.
+https://codespaces.new/nextflow-io/training?quickstart=1&ref=2.2.1
 
-## Contacto
+O también podés abrir este mismo repositorio en Codespaces desde el siguiente botón:
 
-Para dudas o consultas: [garciafranciscomartin@gmail.com](mailto:garciafranciscomartin@gmail.com)
+[![Abrir en Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?template_repository=garciafranciscomartn/nextflow_intro_rsg)
 
+Esto abrirá una página donde podés crear un nuevo Codespace. Opcionalmente, podés hacer clic en "Change options" para elegir una máquina con más núcleos. Usar una máquina con 4 núcleos te permitirá aprovechar mejor la capacidad de Nextflow para paralelizar tareas.
+
+Para los cursos **Hello Nextflow**, **Nextflow For Science** y **nf-core**, se recomienda una máquina de **4 núcleos**.
+
+### Cuotas gratuitas
+
+El plan gratuito de GitHub incluye **120 core-hours** mensuales para Codespaces. Eso equivale, por ejemplo, a 30 horas en una máquina de 4 núcleos.
+
+Más información sobre las cuotas de uso y los planes disponibles:  
+https://docs.github.com/en/billing/managing-billing-for-github-codespaces/about-billing-for-github-codespaces
 ```
