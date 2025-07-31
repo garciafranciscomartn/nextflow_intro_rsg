@@ -52,7 +52,7 @@ https://github.com
 ### Ejecutar este repositorio en GitHub Codespaces
 
 Una vez que iniciaste sesión en GitHub, podés abrir directamente el entorno de entrenamiento desde este enlace:
-Preguntar a Marcel  VER SI PUEDO USAR EL DEL TRAINING 
+
 https://codespaces.new/nextflow-io/training?quickstart=1&ref=2.2.1
 
 O también podés abrir este mismo repositorio en Codespaces desde el siguiente botón:
