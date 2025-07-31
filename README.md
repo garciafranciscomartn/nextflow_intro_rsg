@@ -52,7 +52,8 @@ https://github.com
 ### Ejecutar este repositorio en GitHub Codespaces
 
 Una vez que iniciaste sesión en GitHub, podés abrir directamente el entorno de entrenamiento desde este enlace:
-[![Abrir en Codespaces](https://codespaces.new/nextflow-io/training?quickstart=1&ref=2.2.1)
+
+https://codespaces.new/nextflow-io/training?quickstart=1&ref=2.2.1
 
 Esto abrirá una página donde podés crear un nuevo Codespace. Opcionalmente, podés hacer clic en "Change options" para elegir una máquina con más núcleos. Usar una máquina con 4 núcleos te permitirá aprovechar mejor la capacidad de Nextflow para paralelizar tareas.
 
